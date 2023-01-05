@@ -78,7 +78,7 @@ CREATE TABLE iceberg_table (
 (Background on this error at: https://sqlalche.me/e/14/f405) 
 ```
 
-Now change timestamp [here](https://github.com/arun-k-bharathan/ibis_issue/blob/main/runme.py#L22) to timestamp(6) in runme.py
+Now change timestamp [here](https://github.com/arun-k-bharathan/ibis_issue/blob/main/runme.py#L22) to timestamp(6) in [runme.py](https://github.com/arun-k-bharathan/ibis_issue/blob/main/runme.py)
 
 then run
 ```bash
