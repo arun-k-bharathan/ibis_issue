@@ -19,5 +19,5 @@ if __name__ == "__main__":
             pass
 
     
-    first = ibis.schema({"a": "timestamp"})
+    first = ibis.schema({"a": "timestamp(6)"})
     connection.create_table("iceberg_table", schema=first)
