@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ibis-trino-iceberg-issue"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "ibis_trino_iceberg_issue"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ibis-framework = {git = "https://github.com/ibis-project/ibis.git", develop = true}
+sqlalchemy = "^1.4.46"
+pyarrow = "^10.0.1"
+trino = {extras = ["sqlalchemy"], version = "^0.320.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
