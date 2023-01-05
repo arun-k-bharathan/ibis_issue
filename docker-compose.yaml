@@ -2,7 +2,6 @@ version: "3.7"
 services:
   trino:
     depends_on:
-      - trino-hive-mariadb
       - trino-minio
     healthcheck:
       interval: 5s
